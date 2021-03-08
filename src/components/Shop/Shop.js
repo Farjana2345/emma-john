@@ -21,7 +21,7 @@ const Shop = () => {
         })
         setCart(previousCart);
         
-    },[]);
+    },[setProduct]);
 
     const productAddHandler = (product)=>{
         // console.log('added product',product);
